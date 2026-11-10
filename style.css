@@ -1,0 +1,52 @@
+body{
+  
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  left:0;
+  width:100%;
+  background-color: #2197ce;
+  color: orangered;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+}
+.navi{
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding:0;
+}
+.navi a {
+  color:  black;
+  text-decoration: none;
+}
+
+.navi a:hover {
+  color: orangered; 
+}
+.logo{
+  font-size:30px;
+}
+img{
+  width:300px;
+}
+.cards{
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+}
+.button{
+  background-color:  #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.button:hover{
+  filter:brightness(0.7);
+}
